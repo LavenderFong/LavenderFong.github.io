@@ -157,7 +157,7 @@
       .ProjectD5{
         position: relative;
         grid-column: 2;
-        grid-row: 12;
+        grid-row: 1;
         padding-top: 10px;
         padding-left: 300px;
         padding-right: 300px;
@@ -167,7 +167,26 @@
 
       .ProjectM5{
         grid-column: 2;
-        grid-row: 11;
+        grid-row: 1;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+      }
+
+      .ProjectD6{
+        position: relative;
+        grid-column: 2;
+        grid-row: 1;
+        padding-top: 10px;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-bottom: 25px;
+        margin: auto;
+      }
+
+      .ProjectM6{
+        grid-column: 2;
+        grid-row: 1;
         width: fit-content;
         height: fit-content;
         margin: auto;
