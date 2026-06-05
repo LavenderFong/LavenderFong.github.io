@@ -1,5 +1,5 @@
 
-    @media(min-width:1000px){
+    @media(min-width:800px){
       [class^="griditem"]{
         text-align:center;
       }
@@ -193,7 +193,7 @@
 
     }
 
-    @media (max-width:1000px){
+    @media (max-width:800px){
     [class^="griditem"]{
       text-align: center;
     }
@@ -363,7 +363,7 @@
         margin: auto;
       }
     }
-
+ 
     h3{
       color:black;
       font-weight: bold;
