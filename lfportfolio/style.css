@@ -1,5 +1,5 @@
 
-    @media(min-width:800px){
+    @media(min-width:500px){
       [class^="griditem"]{
         text-align:center;
       }
@@ -202,14 +202,14 @@
 
     }
 
-    @media (max-width:800px){
+    @media (max-width:500px){
     [class^="griditem"]{
       text-align: center;
     }
 
     .MainContent{
       grid-column: 1/span 3;
-      grid-row: 4/span 10;
+      grid-row: 4/span 16;
       padding: 5px;
       margin: auto;
       font-size: 20px;
@@ -294,13 +294,15 @@
         margin: auto;
       }
 
-      .ProjectD1{
+       .ProjectD5{
         position: relative;
         grid-column: 2;
         grid-row: 4;
+        padding: 5px;
+        margin: auto;
       }
 
-      .ProjectM1{
+      .ProjectM5{
         grid-column: 2;
         grid-row: 3;
         width: fit-content;
@@ -308,17 +310,49 @@
         margin: auto;
       }
 
-             .ProjectD2{
+      .ProjectD6{
         position: relative;
         grid-column: 2;
         grid-row: 6;
+        padding: 5px;
+        margin: auto;
+
+      }
+
+      .ProjectM6{
+        grid-column: 2;
+        grid-row: 5;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+      }
+      
+
+      .ProjectD1{
+        position: relative;
+        grid-column: 2;
+        grid-row: 8;
+      }
+
+      .ProjectM1{
+        grid-column: 2;
+        grid-row: 7;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+      }
+
+        .ProjectD2{
+        position: relative;
+        grid-column: 2;
+        grid-row: 10;
         padding: 5px;
         margin: auto;
       }
 
       .ProjectM2{
         grid-column: 2;
-        grid-row: 5;
+        grid-row: 9;
         width: fit-content;
         height: fit-content;
         margin: auto;
@@ -327,14 +361,14 @@
       .ProjectD3{
         position: relative;
         grid-column: 2;
-        grid-row: 8;
+        grid-row: 12;
         padding: 5px;
         margin: auto;
       }
 
       .ProjectM3{
         grid-column: 2;
-        grid-row: 7;
+        grid-row: 11;
         width: fit-content;
         height: fit-content;
         margin: auto;
@@ -343,34 +377,19 @@
       .ProjectD4{
         position: relative;
         grid-column: 2;
-        grid-row: 10;
+        grid-row: 14;
         padding: 5px;
         margin: auto;
       }
 
       .ProjectM4{
         grid-column: 2;
-        grid-row: 9;
+        grid-row: 13;
         width: fit-content;
         height: fit-content;
         margin: auto;
       }
 
-      .ProjectD5{
-        position: relative;
-        grid-column: 2;
-        grid-row: 12;
-        padding: 5px;
-        margin: auto;
-      }
-
-      .ProjectM5{
-        grid-column: 2;
-        grid-row: 11;
-        width: fit-content;
-        height: fit-content;
-        margin: auto;
-      }
     }
  
     h3{
