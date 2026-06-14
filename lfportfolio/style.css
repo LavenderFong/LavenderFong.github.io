@@ -58,47 +58,11 @@
       }
 
 
-      .ProjectD5{
-        position: relative;
-        grid-column: 2;
-        grid-row: 4;
-        padding-top: 10px;
-        padding-left: 300px;
-        padding-right: 300px;
-        padding-bottom: 25px;
-        margin: auto;
-      }
-
-      .ProjectM5{
-        grid-column: 2;
-        grid-row: 3;
-        width: fit-content;
-        height: fit-content;
-        margin: auto;
-      }
-
-      .ProjectD6{
-        position: relative;
-        grid-column: 2;
-        grid-row: 6;
-        padding-top: 10px;
-        padding-left: 300px;
-        padding-right: 300px;
-        padding-bottom: 25px;
-        margin: auto;
-      }
-
-      .ProjectM6{
-        grid-column: 2;
-        grid-row: 5;
-        width: fit-content;
-        height: fit-content;
-        margin: auto;
-      }
+      
 
       .ProjectD1{
         position: relative;
-        grid-column: 8;
+        grid-column: 2;
         grid-row: 4;
         padding-top: 10px;
         padding-left: 300px;
@@ -109,7 +73,7 @@
 
       .ProjectM1{
         grid-column: 2;
-        grid-row: 7;
+        grid-row: 3;
         width: fit-content;
         height: fit-content;
         margin: auto;
@@ -146,7 +110,7 @@
        .ProjectD2{
         position: relative;
         grid-column: 2;
-        grid-row: 10;
+        grid-row: 6;
         padding-top: 10px;
         padding-left: 300px;
         padding-right: 300px;
@@ -156,13 +120,50 @@
 
       .ProjectM2{
         grid-column: 2;
-        grid-row: 9;
+        grid-row: 5;
         width: fit-content;
         height: fit-content;
         margin: auto;
       }
 
       .ProjectD3{
+        position: relative;
+        grid-column: 2;
+        grid-row: 8;
+        padding-top: 10px;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-bottom: 25px;
+        margin: auto;
+      }
+
+      .ProjectM3{
+        grid-column: 2;
+        grid-row: 7;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+      }
+
+      .ProjectD4{
+        position: relative;
+        grid-column: 2;
+        grid-row: 10;
+        padding-top: 10px;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-bottom: 300px;
+        margin: auto;
+      }
+
+      .ProjectM4{
+        grid-column: 2;
+        grid-row: 9;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+      }
+.ProjectD5{
         position: relative;
         grid-column: 2;
         grid-row: 12;
@@ -173,7 +174,7 @@
         margin: auto;
       }
 
-      .ProjectM3{
+      .ProjectM5{
         grid-column: 2;
         grid-row: 11;
         width: fit-content;
@@ -181,25 +182,24 @@
         margin: auto;
       }
 
-      .ProjectD4{
+      .ProjectD6{
         position: relative;
         grid-column: 2;
         grid-row: 14;
         padding-top: 10px;
         padding-left: 300px;
         padding-right: 300px;
-        padding-bottom: 300px;
+        padding-bottom: 25px;
         margin: auto;
       }
 
-      .ProjectM4{
+      .ProjectM6{
         grid-column: 2;
         grid-row: 13;
         width: fit-content;
         height: fit-content;
         margin: auto;
       }
-
     }
 
     @media (max-width:500px){
@@ -294,38 +294,7 @@
         margin: auto;
       }
 
-       .ProjectD5{
-        position: relative;
-        grid-column: 2;
-        grid-row: 4;
-        padding: 5px;
-        margin: auto;
-      }
-
-      .ProjectM5{
-        grid-column: 2;
-        grid-row: 3;
-        width: fit-content;
-        height: fit-content;
-        margin: auto;
-      }
-
-      .ProjectD6{
-        position: relative;
-        grid-column: 2;
-        grid-row: 6;
-        padding: 5px;
-        margin: auto;
-
-      }
-
-      .ProjectM6{
-        grid-column: 2;
-        grid-row: 5;
-        width: fit-content;
-        height: fit-content;
-        margin: auto;
-      }
+    
       
 
       .ProjectD1{
@@ -389,7 +358,38 @@
         height: fit-content;
         margin: auto;
       }
+   .ProjectD5{
+        position: relative;
+        grid-column: 2;
+        grid-row: 4;
+        padding: 5px;
+        margin: auto;
+      }
 
+      .ProjectM5{
+        grid-column: 2;
+        grid-row: 3;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+      }
+
+      .ProjectD6{
+        position: relative;
+        grid-column: 2;
+        grid-row: 6;
+        padding: 5px;
+        margin: auto;
+
+      }
+
+      .ProjectM6{
+        grid-column: 2;
+        grid-row: 5;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+      }
     }
  
     h3{
